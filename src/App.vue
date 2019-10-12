@@ -11,11 +11,6 @@
     <h2>{{picker2}}</h2>
     </v-card-text>
   </v-card>
-
-          
-   
-      
-      
       </v-row>
       </v-container>
 
@@ -41,7 +36,7 @@ export default {
   }),
     methods: {
       changeData(data){
-        //this.picker2 = data
+        this.picker2 = data
         console.log("my metodo",data);
         
       }
