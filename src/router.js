@@ -13,6 +13,11 @@ export default new Router({
       name: 'home',
       component: Home
       //component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    },
+    {
+      path: '/botones',
+      name: 'botones',      
+      component: () => import(/* webpackChunkName: "about" */ './components/Botones.vue')
     }
   ]
 })

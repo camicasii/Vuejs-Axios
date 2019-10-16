@@ -12,7 +12,7 @@
       <h2> Valor del Dolar: <span
       v-if="bool">{{valor}}$</span>
       <span
-      v-else="bool">{{sms}}</span>
+      v-else>{{sms}}</span>
       </h2>
       
       </v-card-text>
